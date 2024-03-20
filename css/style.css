@@ -1,0 +1,48 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);      
+}
+
+header{
+width: 60%;
+display: block;
+margin: 0 auto;
+
+}
+
+a{
+/*color: blueviolet;*/
+text-decoration: none;
+font-size: 30px;
+margin: 0 10px;
+}
+a:link, a:visited {
+   
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+#a1{
+    cursor:pointer;
+}
+#a2{
+    cursor: progress;
+}
+#a3{
+    cursor: grab;
+}
+#a4{
+    cursor: help;
+}
+a:active, a:hover{
+    color: blue;
+}
+i{
+margin-right: 10px;
+}
